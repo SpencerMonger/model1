@@ -1,0 +1,65 @@
+# Virtual Environments
+polydata-env/
+classmodel-env/
+venv/
+env/
+.env/
+.venv/
+**/Lib/
+**/lib/
+
+# Data directories
+csvoutputs/
+csvinputs/
+polygon/csvoutputs/
+data/
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite
+logs/
+tensorboard_logs/
+
+# Model files and checkpoints
+*.pth
+*.pt
+*.h5
+checkpoints/
+models/
+
+# Transformers
+transformers/

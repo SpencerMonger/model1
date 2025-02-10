@@ -1,0 +1,15 @@
+Virtual Enviroment
+
+# Create environment
+python -m venv polydata-env
+
+# Activate environment
+.\polydata-env\Scripts\Activate
+
+
+
+
+
+
+
+end_date = datetime.now(pytz.utc).astimezone(timezone('US/Eastern'))
